@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="techxpert"
+version="${file.jarVersion}"
+displayName="Techxpert"
+logoFile="examplemod.png"
+credits="created by hexy_WasTaken using the tutorial by Cy4"
+authors="hexy_WasTaken"
+description='''
+This is my first mod and I've always wanted to make a tech mod so I did.
+'''
+[[dependencies.techxpert]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.techxpert]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
