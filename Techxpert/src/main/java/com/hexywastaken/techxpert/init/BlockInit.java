@@ -20,6 +20,7 @@ public class BlockInit {
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Techxpert.MOD_ID);
 	public static final DeferredRegister<Item> ITEMS = ItemInit.ITEMS;
 	public static final RegistryObject<Block> ALUMINUM_ORE = register("aluminum_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(2.5f).sound(SoundType.METAL).requiresCorrectToolForDrops()), object -> () -> new BlockItem(object.get(), new Item.Properties().tab(Techxpert.TECHXPERT_MATERIALS)));
+  public static final RegistryObject<Block> ALUMINUM_BLOCK = register("aluminum_block", () -> new lock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).strength(2.5f).sound(SoundType.METAL).requiresCorrectToolForDrops()), object -> () -> new BlockItem(object.get(), new Item.Properties().tab(Techxpert.TECHXPERT_MATERIALS)));
 	
 	private static <T extends Block> RegistryObject<T> registerBlock(final String name, final Supplier<? extends T> block) {
 		return BLOCKS.register(name, block);

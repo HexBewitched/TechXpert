@@ -1,5 +1,8 @@
 {
 	"item.techxpert.aluminum_ingot": "Aluminum Ingot",
 	"itemGroup.techxpert_materials": "Techxpert Materials",
-	"block.techxpert.aluminum_ore": "Aluminum Ore"
+	"block.techxpert.aluminum_ore": "Aluminum Ore",
+  "block.techxpert.aluminum_block": "Aluminum Block",
+  "itemGroup.techxpert_ores",
+  "itemGroup.techxpert_tools"
 }

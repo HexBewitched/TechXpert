@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"techxpert:aluminum_ore"
+		"techxpert:aluminum_ore",
+    "techxpert:aluminum_block"
 	]
 }

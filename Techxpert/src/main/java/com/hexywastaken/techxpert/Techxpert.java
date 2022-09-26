@@ -32,6 +32,14 @@ public class Techxpert {
 			return new ItemStack(ItemInit.ALUMINUM_INGOT.get());
 		}
 	};
+
+  public static final CreativeModeTab TECHXPERT_ORES = new CreativeModeTab(MOD_ID + "_ores ") {
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public ItemStack makeIcon() {
+			return new ItemStack(ItemInit.ALUMINUM_ORE.get());
+		}
+	};
 	
 	public Techxpert() {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
