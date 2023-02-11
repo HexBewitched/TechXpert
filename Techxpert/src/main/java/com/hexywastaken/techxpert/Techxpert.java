@@ -21,7 +21,7 @@ public class Techxpert {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack makeIcon() {
-			return null;
+			return new ItemStack(ItemInit.ALUMINUM_INGOT.get());
 		}
 	};
 	
